@@ -63,7 +63,13 @@
 ```
 ---
 
-### Start docker daemon (open other openings, as this command will leave docker running in the background)
+### Start docker daemon (Swipe from left edge of the screen and open a new session. Run containers)
 ```bash
-  sudo dockerd --iptables=false
+ sudo dockerd --iptables=false
 ```
+
+### Assuming you've done what you asked above, let's try creating an **Ubuntu** container
+```bash
+ sudo docker -it ubuntu bash
+```
+> the similar result will be:
