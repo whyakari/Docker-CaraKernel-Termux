@@ -70,7 +70,7 @@
 
 ### Assuming you've done what you asked above, let's try creating an **Ubuntu** container
 ```bash
- sudo docker -it ubuntu bash
+ sudo docker run -it ubuntu bash
 ```
 > **The similar result will be**:
 > ![Screenshot_Termux](https://user-images.githubusercontent.com/58480908/218167294-2e31a558-9a79-4ff9-95f2-59d92fa551ab.png)
