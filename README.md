@@ -93,4 +93,16 @@ sudo docker run -ti \
 > **something similar to this will be**:
 > ![Screenshot_Termux](https://user-images.githubusercontent.com/58480908/218170437-03cbf2d2-9ad1-42f3-a1aa-877a71c5dc3d.jpg)
 
+---
 
+## Some important notes to read:
+ - this method was tested on **Ginkgo** using a **PixelOS** Android 13 custom rom.
+ - don't ask me if it works for other types of kernels, I don't know.
+ - the kernels I tested and were not:
+   - Cryo Kernel `[tested fail]`
+   - ElasticsPerf Kernel `[not booted]`
+   - Meow Kernel `[tsted fail]`
+   - LightNing Kernel `[tested fail]`
+   - Ryzen Kernel `[idk]`
+   - Syxteen Kernel `[idk lol]`
+   - QuickSilve Kernel `[lmao fail]`
