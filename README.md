@@ -100,10 +100,10 @@ sudo docker run -ti \
  - don't ask me if it works for other types of kernels, I don't know.
 
  - the kernels I tested and not tested:
-   - Cryo Kernel `[tested fail]`
-   - ElasticsPerf Kernel `[not booted]`
-   - Meow Kernel `[tested fail]`
-   - LightNing Kernel `[tested fail]`
-   - Ryzen Kernel `[idk]`
-   - Syxteen Kernel `[idk lol]`
-   - QuickSilve Kernel `[lmao fail]`
+   - **Cryo Kernel** `[tested fail]`
+   - **ElasticsPerf Kernel** `[not booted]`
+   - **Meow Kernel** `[tested fail]`
+   - **LightNing Kernel** `[tested fail]`
+   - **Ryzen Kernel** `[idk]`
+   - **Syxteen Kernel** `[idk lol]`
+   - **QuickSilve Kernel** `[lmao fail]`
