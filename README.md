@@ -108,4 +108,4 @@ sudo docker run -ti \
    - **LightNing Kernel** `[test fail]`
    - **Ryzen Kernel** `[idk]`
    - **Syxteen Kernel** `[idk lol]`
-   - **QuickSilve Kernel** `[idk(probably fail)]`
+   - **QuickSilve Kernel** `[idk, probably fail]`
