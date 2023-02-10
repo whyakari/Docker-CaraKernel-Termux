@@ -102,6 +102,7 @@ sudo docker run -ti \
  - don't ask me if it works for other types of kernels, I don't know.
 
  - the kernels I tested and not tested:
+   - **CaraKernel Kernel** `[work pass]`
    - **Cryo Kernel** `[test fail]`
    - **ElasticsPerf Kernel** `[not booted]`
    - **Meow Kernel** `[test fail]`
