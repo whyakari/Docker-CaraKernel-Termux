@@ -90,6 +90,7 @@ sudo docker run -ti \
  sudo docker ps -a
  sudo docker rm <container_id>
 ```
-> something similar to this will be:
-> ![Screenshot_Termux](https://user-images.githubusercontent.com/58480908/218170077-3ebf459b-1feb-432f-ae2d-83194fcae1a5.jpg)
+> **something similar to this will be**:
+> ![Screenshot_Termux](https://user-images.githubusercontent.com/58480908/218170437-03cbf2d2-9ad1-42f3-a1aa-877a71c5dc3d.jpg)
+
 
