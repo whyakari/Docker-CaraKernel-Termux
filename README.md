@@ -77,7 +77,7 @@
 
 ---
 
-### Maybe you're wondering why the "apt update" command doesn't work, yes, I let it go unnoticed, because I want to show you how to fix it
+### “Maybe you're wondering why the "apt update" command doesn't work”, yes, I let it go unnoticed, because I want to show you how to fix it:
 ```bash
 sudo docker run -ti \
     --net="host" \
