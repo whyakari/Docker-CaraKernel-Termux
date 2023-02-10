@@ -65,5 +65,5 @@
 
 ### Start docker daemon (open other openings, as this command will leave docker running in the background)
 ```bash
- sudo dockerd --iptables=false
+  sudo dockerd --iptables=false
 ```
