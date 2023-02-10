@@ -4,14 +4,14 @@
 ---
 
 ### Requirements:
- - **CaraKernel Support** (I just tested it on device Ginkgo)
- - **Recovery** (Recommended OrangeFox)
- - **Magisk/ROOT** (v23+)
+ - **CaraKernel Support** (I just tested it on device [Ginkgo](https://github.com/AkariOficial/Docker-CaraKernel-Termux/edit/main/README.md#this-step-would-be-the-compilation-of-the-kernel-but-not-necessarily-if-your-kernel-already-has-the-parameters-enabled-good-luck))
+ - **Recovery** (Recommended [OrangeFox](https://orangefox.download/))
+ - **Magisk/ROOT** ([v23+](https://github.com/topjohnwu/Magisk))
 
 ---
 
-1. __First I rooted my Xiaomi Redmi Note 8. Then I installed PixelOS Android 13.__
-2. __Install Termux. Then execute Moby’s script to check kernel’s compatibility o running docker.__
+1. __First I rooted my Xiaomi Redmi Note 8. Then I installed [PixelOS](https://pixelos.net/download) Android 13.__
+2. __Install [Termux](https://github.com/HardcodedCat/termux-monet). Then execute Moby’s script to check kernel’s compatibility o running docker.__
 
 ### Before we proceed <br> Check kernel compatibility
 ```bash
