@@ -35,3 +35,21 @@
  3. Flash the ZIP to your RECOVERY
  4. Flash the MAGISK **(mandatory)**
    > if it stays in bootloop, boot into recovery and restore the backup you made earlier.
+
+---
+
+## It's show time...
+
+> Running Docker containers
+### A message “There is an internal problem with your device” will pop up on every boot. Just ignore it.
+
+ 1. **Open Termux, mount cgroups**:
+ ```bash
+  sudo mount -t tmpfs -o uid=0,gid=0,mode=0755 cgroup /sys/fs/cgroup
+ ```
+ 2. **Enable binfmt_misc**:
+ ```bash
+  su
+  mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc
+  echo 1 > /proc/sys/fs/binfmt_misc/status
+ ```
