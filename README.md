@@ -6,5 +6,5 @@
 ## Requirements:
  - CaraKernel Support (I just tested it on device Ginkgo)
  - Recovery (Recommended OrangeFox)
- - Magisk (v23+)
+ - Magisk/ROOT (v23+)
 
