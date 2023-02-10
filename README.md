@@ -70,6 +70,22 @@
  sudo dockerd --iptables=false
 ```
 
+---
+
+##### 3.1.1. Internet access
+##### The two network drivers tested so far are `bridge` and `host`. Here's how to get each of them working.
+> This is the default netwok driver. If you don't specify a driver, this is the type of network you are creating. Bridge networks isolate the container network by editing the iptables rules and creating a network interface called Docker0 that serves as a bridge. All containers created with the bridge driver will use this interface. This is analogous to creating a VLAN and running the containers inside it.
+##### But, there's a catch in Android: iptables rules policy is different here than on a conventional GNU/Linux system (more info here). For the bridge driver to work, you'll have to manually edit the iptable by running;
+```bash
+ sudo ip route add default via 192.168.1.1 dev wlan0
+ sudo ip rule add from all lookup main pref 30000
+```
+> Note: change __192.168.1.1__ according to your gateway IP.
+
+Unfortunately, this means that changing networks will require you to re-configure the rules again.
+
+---
+
 ### Assuming you've done what you asked above, let's try creating an **Ubuntu** container
 ```bash
  sudo docker run -it ubuntu bash
