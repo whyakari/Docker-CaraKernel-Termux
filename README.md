@@ -33,7 +33,7 @@
  1. Before changing kernels, **backup dtbo and boot**
  2. **Download** [CaraKernel](https://t.me/GinkgoKernel/5804/40573?single) (for ginkgo)
  3. **Flash the ZIP to your** [#RECOVERY](https://github.com/AkariOficial/Docker-CaraKernel-Termux#requirements)
- 4. **Flash the MAGISK (mandatory)**
+ 4. **Flash the** [#MAGISK](https://github.com/AkariOficial/Docker-CaraKernel-Termux#requirements) **MANDATORY!**
    > **if it stays in bootloop, boot into recovery and restore the backup you made earlier.**
 
 ---
