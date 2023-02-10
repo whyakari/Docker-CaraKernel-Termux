@@ -25,5 +25,15 @@
 --- 
 
 3. __The missing configs will be displayed. Take notes of these red missing configs (especially configs under Generally Necessary), we have to enable them during kernel compliation.__
+> ![Screenshot_Termux](https://user-images.githubusercontent.com/58480908/218159380-4b53280e-e049-4df7-a2ad-2ee46a8e8301.png)
 
-![Screenshot_Termux](https://user-images.githubusercontent.com/58480908/218159380-4b53280e-e049-4df7-a2ad-2ee46a8e8301.png)
+---
+<br>
+
+### This step would be the compilation of the kernel. but not necessarily if your kernel already has the parameters enabled (good luck)
+ - before changing kernels, **backup dtbo and boot**
+ - Download [CaraKernel](https://t.me/GinkgoKernel/5804/40573?single) (for ginkgo)
+ - flash the zip to your recovery
+ - flash the magisk **(mandatory)**
+
+ - ps: if it stays in bootloop, boot into recovery and restore the backup you made earlier.
