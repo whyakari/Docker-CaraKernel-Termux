@@ -53,3 +53,5 @@
   mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc
   echo 1 > /proc/sys/fs/binfmt_misc/status
  ```
+ 3. Execute Moby’s script again: sudo ./check-config.sh. Make sure everything turns green.
+ 
