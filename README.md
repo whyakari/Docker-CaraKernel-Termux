@@ -74,7 +74,7 @@
 
 ##### 3.1.1. Internet access
 ##### The two network drivers tested so far are `bridge` and `host`. Here's how to get each of them working.
-> This is the default netwok driver. If you don't specify a driver, this is the type of network you are creating. Bridge networks isolate the container network by editing the iptables rules and creating a network interface called Docker0 that serves as a bridge. All containers created with the bridge driver will use this interface. This is analogous to creating a VLAN and running the containers inside it.
+> This is the default netwok driver. If you don't specify a driver, this is the type of network you are creating. Bridge networks isolate the container network by editing the iptables rules and creating a network interface called **Docker0** that serves as a bridge. All containers created with the bridge driver will use this interface. This is analogous to creating a VLAN and running the containers inside it.
 ##### But, there's a catch in Android: iptables rules policy is different here than on a conventional GNU/Linux system (more info here). For the bridge driver to work, you'll have to manually edit the iptable by running;
 ```bash
  sudo ip route add default via 192.168.1.1 dev wlan0
