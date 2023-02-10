@@ -88,7 +88,7 @@ sudo docker run -ti \
 ### So we can do this:
 ```bash
  sudo docker ps -a
- sudo docker rm <id_container>
+ sudo docker rm <container_id>
 ```
 > something similar to this will be:
 > 
