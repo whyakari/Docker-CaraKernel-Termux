@@ -102,10 +102,10 @@ sudo docker run -ti \
  - don't ask me if it works for other types of kernels, I don't know.
 
  - the kernels I tested and not tested:
-   - **Cryo Kernel** `[tested fail]`
+   - **Cryo Kernel** `[test fail]`
    - **ElasticsPerf Kernel** `[not booted]`
-   - **Meow Kernel** `[tested fail]`
-   - **LightNing Kernel** `[tested fail]`
+   - **Meow Kernel** `[test fail]`
+   - **LightNing Kernel** `[test fail]`
    - **Ryzen Kernel** `[idk]`
    - **Syxteen Kernel** `[idk lol]`
-   - **QuickSilve Kernel** `[lmao fail]`
+   - **QuickSilve Kernel** `[idk(probably fail)]`
