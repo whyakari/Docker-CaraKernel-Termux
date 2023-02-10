@@ -28,12 +28,10 @@
 > ![Screenshot_Termux](https://user-images.githubusercontent.com/58480908/218159380-4b53280e-e049-4df7-a2ad-2ee46a8e8301.png)
 
 ---
-<br>
 
 ### This step would be the compilation of the kernel. but not necessarily if your kernel already has the parameters enabled (good luck)
- - before changing kernels, **backup dtbo and boot**
- - Download [CaraKernel](https://t.me/GinkgoKernel/5804/40573?single) (for ginkgo)
- - flash the zip to your recovery
- - flash the magisk **(mandatory)**
-
- - ps: if it stays in bootloop, boot into recovery and restore the backup you made earlier.
+ 1. before changing kernels, **backup dtbo and boot**
+ 2. Download [CaraKernel](https://t.me/GinkgoKernel/5804/40573?single) (for ginkgo)
+ 3. Flash the ZIP to your RECOVERY
+ 4. Flash the MAGISK **(mandatory)**
+   > if it stays in bootloop, boot into recovery and restore the backup you made earlier.
