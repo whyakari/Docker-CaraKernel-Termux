@@ -126,3 +126,8 @@ sudo docker run -ti \
    - **Ryzen Kernel** `[idk]`
    - **Syxteen Kernel** `[idk lol]`
    - **QuickSilve Kernel** `[idk, probably fail]`
+
+---
+
+thanks to [Freedie Oliveira](https://gist.github.com/FreddieOliveira/efe850df7ff3951cb62d74bd770dce27) for providing an efficient method 
+and also [docker-materia](https://ivonblog.com/en-us/posts/sony-xperia-5-ii-docker-kernel/)
