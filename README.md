@@ -72,5 +72,16 @@
 ```bash
  sudo docker -it ubuntu bash
 ```
-> the similar result will be:
+> **The similar result will be**:
 > ![Screenshot_Termux](https://user-images.githubusercontent.com/58480908/218167294-2e31a558-9a79-4ff9-95f2-59d92fa551ab.png)
+
+---
+
+### Maybe you're wondering why the "apt update" command doesn't work, yes, I let it go unnoticed, because I want to show you how to fix it
+```bash
+sudo docker run -ti \
+    --net="host" \
+    --dns="8.8.8.8" \
+    ubuntu
+```
+> running this way, the apt command will work normally. ah: don't forget to remove the container we created earlier, so we can do this:
