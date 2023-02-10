@@ -84,4 +84,11 @@ sudo docker run -ti \
     --dns="8.8.8.8" \
     ubuntu
 ```
-> running this way, the apt command will work normally. ah: don't forget to remove the container we created earlier, so we can do this:
+> running this way, the apt command will work normally. <br> ps: **Don't forget to remove the container we created earlier** 
+### So we can do this:
+```bash
+ sudo docker ps -a
+ sudo docker rm <id_container>
+```
+> something similar to this will be:
+> 
