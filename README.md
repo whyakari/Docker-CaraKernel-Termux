@@ -30,11 +30,11 @@
 ---
 
 ### This step would be the compilation of the kernel. but not necessarily if your kernel already has the parameters [enabled](https://ivonblog.com/en-us/posts/sony-xperia-5-ii-docker-kernel/) (good luck)
- 1. before changing kernels, **backup dtbo and boot**
- 2. Download [CaraKernel](https://t.me/GinkgoKernel/5804/40573?single) (for ginkgo)
- 3. Flash the ZIP to your RECOVERY
- 4. Flash the MAGISK **(mandatory)**
-   > if it stays in bootloop, boot into recovery and restore the backup you made earlier.
+ 1. Before changing kernels, **backup dtbo and boot**
+ 2. **Download** [CaraKernel](https://t.me/GinkgoKernel/5804/40573?single) (for ginkgo)
+ 3. **Flash the ZIP to your RECOVERY**
+ 4. **Flash the MAGISK (mandatory)**
+   > **if it stays in bootloop, boot into recovery and restore the backup you made earlier.**
 
 ---
 
