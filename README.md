@@ -55,3 +55,4 @@
  ```
  3. Execute Moby’s script again: sudo ./check-config.sh. Make sure everything turns green.
  
+![Screenshot-Termux](https://user-images.githubusercontent.com/58480908/218163609-d6a5feeb-9477-43f4-83f1-83ed189f7a26.png)
