@@ -6,7 +6,7 @@
 ### Requirements:
  - **CaraKernel Support** (I just tested it on device [#Ginkgo](https://github.com/AkariOficial/Docker-CaraKernel-Termux#this-step-would-be-the-compilation-of-the-kernel-but-not-necessarily-if-your-kernel-already-has-the-parameters-enabled-good-luck))
  - **Recovery** (Recommended [OrangeFox](https://orangefox.download/))
- - **Module CaraKernel** [Download](https://t.me/GinkgoKernel/5804/40574?single)
+ - **Module** [CaraKernel](https://t.me/GinkgoKernel/5804/40574?single) (necessary to work!)
  - **Magisk/ROOT** ([v23+](https://github.com/topjohnwu/Magisk))
  
  - **Some** [#Notes](https://github.com/AkariOficial/Docker-CaraKernel-Termux/blob/main/README.md#some-important-notes-to-read) **that are worth reading.**
