@@ -118,6 +118,7 @@ sudo docker run -ti \
 ---
 
 ## Some important notes to read:
+ - Attention, the current version `Docker version v23.0.1, build` of docker in termux doesn't work correctly. so i compiled `Docker version v20.10.23-ce, build`
  - this method was tested on **Ginkgo** using a **PixelOS** Android 13 custom rom.
  - don't ask me if it works for other types of kernels, I don't know.
 
