@@ -64,6 +64,9 @@
  pkg in root-repo -y
  pkg in docker docker-compose -y
 ```
+## warning: docker in its current version will not work. don't install in the normal way above, install from here:
+#### [Install Here](https://github.com/AkariOficial/termux-packages#install-package-docker--only-architeture-aarch64)
+
 ---
 
 ### Start docker daemon (Swipe from left edge of the screen and open a new session. Run containers)
