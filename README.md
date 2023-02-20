@@ -63,7 +63,7 @@
 
 ### Install docker and docker-compose:
 > [get docker](https://github.com/AkariOficial/termux-packages#install-package-docker--only-architeture-aarch64)
-> /// [Read here](https://github.com/AkariOficial/Docker-CaraKernel-Termux/edit/main/README.md#some-important-notes-to-read) **the reason that I put docker in another repository**
+> /// [Read here](https://github.com/AkariOficial/Docker-CaraKernel-Termux/blob/main/README.md#some-important-notes-to-read) **the reason that I put docker in another repository**
 
 ---
 
