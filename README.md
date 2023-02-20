@@ -59,13 +59,11 @@
  3. Execute Moby’s script again: **sudo ./check-config.sh**. Make sure everything turns green.
  > ![Screenshot-Termux](https://user-images.githubusercontent.com/58480908/218163609-d6a5feeb-9477-43f4-83f1-83ed189f7a26.png) <br> Don't worry if it says: "**CONFIG_PID_NS: missing**, **CONFIG_IPC_NS: missing**, **CONFIG_CGROUP_DEVICE: missing**"
 
-### Install docker and <br> docker-compose:
-```bash
- pkg in root-repo -y
- pkg in docker docker-compose -y
-```
-## warning: docker in its current version will not work. don't install in the normal way above, install from here:
-#### [Install Here](https://github.com/AkariOficial/termux-packages#install-package-docker--only-architeture-aarch64)
+---
+
+### Install docker and docker-compose:
+> [get docker](https://github.com/AkariOficial/termux-packages#install-package-docker--only-architeture-aarch64)
+> /// [Read here](https://github.com/AkariOficial/Docker-CaraKernel-Termux/edit/main/README.md#some-important-notes-to-read) **the reason that I put docker in another repository**
 
 ---
 
