@@ -134,3 +134,11 @@ sudo docker run -ti \
 
 thanks to [Freedie Oliveira](https://gist.github.com/FreddieOliveira/efe850df7ff3951cb62d74bd770dce27) for providing an efficient method 
 and also [docker-materia](https://ivonblog.com/en-us/posts/sony-xperia-5-ii-docker-kernel/)
+
+---
+
+> if you think my work is cool or want to help me, make a small donation <3
+#### send for btc address
+```
+ bc1qut3e70aakpdqgmc6ymva9tu92gme5g7w2h75hy
+```
