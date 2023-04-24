@@ -48,13 +48,13 @@
 
  1. **Open Termux, mount cgroups**:
  ```bash
-  sudo mount -t tmpfs -o uid=0,gid=0,mode=0755 cgroup /sys/fs/cgroup
+ sudo mount -t tmpfs -o uid=0,gid=0,mode=0755 cgroup /sys/fs/cgroup
  ```
  2. **Enable binfmt_misc**:
  ```bash
-  su
-  mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc
-  echo 1 > /proc/sys/fs/binfmt_misc/status
+ su
+ mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc
+ echo 1 > /proc/sys/fs/binfmt_misc/status
  ```
  3. Execute Moby’s script again: **sudo ./check-config.sh**. Make sure everything turns green.
  > ![Screenshot-Termux](https://user-images.githubusercontent.com/58480908/218163609-d6a5feeb-9477-43f4-83f1-83ed189f7a26.png) <br> Don't worry if it says: "**CONFIG_PID_NS: missing**, **CONFIG_IPC_NS: missing**, **CONFIG_CGROUP_DEVICE: missing**"
