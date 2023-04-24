@@ -1,7 +1,7 @@
+## **WARNING: THIS PROJECT HAS BEEN DISCONTINUED ❌**
+
 # Docker-CaraKernel-Termux
 > a repository to help you use **Docker** in Termux with the "CaraKernel" kernel
-
----
 
 ### Requirements:
  - **CaraKernel Support** (I just tested it on device [#Ginkgo](https://github.com/AkariOficial/Docker-CaraKernel-Termux#this-step-would-be-the-compilation-of-the-kernel-but-not-necessarily-if-your-kernel-already-has-the-parameters-enabled-good-luck))
