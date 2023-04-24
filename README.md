@@ -1,6 +1,6 @@
-## **WARNING: THIS PROJECT HAS BEEN DISCONTINUED ❌**
+## WARNING: THIS PROJECT HAS BEEN DISCONTINUED❌
 
-# Docker-CaraKernel-Termux
+### ~~Docker-CaraKernel-Termux~~
 > a repository to help you use **Docker** in Termux with the "CaraKernel" kernel
 
 ### Requirements:
